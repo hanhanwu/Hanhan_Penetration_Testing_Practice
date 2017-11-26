@@ -1,6 +1,6 @@
 Sometimes your code is running, and you just don't want to check social media, what to do? Keep learning!
 
-[What is penetration testing](#1)
+[What is penetration testing](#What is penetration testing)
 
 [Penetration Testing Execution Standard](#2)
 
