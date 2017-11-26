@@ -1,15 +1,15 @@
 Sometimes your code is running, and you just don't want to check social media, what to do? Keep learning!
 
-[What is penetration testing](#What is penetration testing)
+[What is penetration testing](#1)
 
-[Penetration Testing Execution Standard](#Penetration Testing Execution Standard (PTES))
+[Penetration Testing Execution Standard](#2)
 
 
-## What is penetration testing
+## 1
   * It assess an organization's security strategy's ability to protect critical data from the actions of a malicious actor, focusing on maintaining the confidentiality, integrity, and availability of the organization's critical data and resources.
     * That is to say, to understand the company's polity, strategy is more important than just findning vulnerabilities. The focus on Vulnerability Management Solution will (VMS) create much more False Positive, since the real problem can be caused by the policy/strategy, but VMS won't be able to find the souce of chained problems
     
-## Penetration Testing Execution Standard (PTES)
+## 2
   * First of all, you have to be CREATIVE in each step (otherwise how could you find what attackers could find...)
   * The author suggests to  follow these phases, and try to move from one phase to the next smoothly
     * Pre-engagement Interactions
