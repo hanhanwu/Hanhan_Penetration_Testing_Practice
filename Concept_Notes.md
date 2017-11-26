@@ -5,7 +5,7 @@ Sometimes your code is running, and you just don't want to check social media, w
 [Penetration Testing Execution Standard](#2)
 
 
-## 1
+## What is penetration testing
   * It assess an organization's security strategy's ability to protect critical data from the actions of a malicious actor, focusing on maintaining the confidentiality, integrity, and availability of the organization's critical data and resources.
     * That is to say, to understand the company's polity, strategy is more important than just findning vulnerabilities. The focus on Vulnerability Management Solution will (VMS) create much more False Positive, since the real problem can be caused by the policy/strategy, but VMS won't be able to find the souce of chained problems
     
