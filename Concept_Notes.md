@@ -1,5 +1,8 @@
 Sometimes your code is running, and you just don't want to check social media, what to do? Keep learning!
 
+## Warning Zone! - When Working For Clients (Python Focus)
+* Better to avoid to install any library on client systems, in case of adding more risks and other unintended consequences
+
 
 ## What is penetration testing
   * It assess an organization's security strategy's ability to protect critical data from the actions of a malicious actor, focusing on maintaining the confidentiality, integrity, and availability of the organization's critical data and resources.
