@@ -8,6 +8,7 @@ Sometimes your code is running, and you just don't want to check social media, w
   * It assess an organization's security strategy's ability to protect critical data from the actions of a malicious actor, focusing on maintaining the confidentiality, integrity, and availability of the organization's critical data and resources.
     * That is to say, to understand the company's polity, strategy is more important than just findning vulnerabilities. The focus on Vulnerability Management Solution will (VMS) create much more False Positive, since the real problem can be caused by the policy/strategy, but VMS won't be able to find the souce of chained problems
     
+    
 ## Penetration Testing Execution Standard
   * First of all, you have to be CREATIVE in each step (otherwise how could you find what attackers could find...)
   * The author suggests to  follow these phases, and try to move from one phase to the next smoothly
@@ -44,3 +45,18 @@ Sometimes your code is running, and you just don't want to check social media, w
     * Target Chief suite and or the Advisory Board
     * A storyline that tells what was done during the engagement, the actual security findings or weaknesses, and the positive controls that the organization has established
     * Each noted security finding better to have a screenshot
+
+
+## Identify Targets
+* Systems Communication
+  * As a system generates data, the data is transmitted through TCP/IP stack, which packages data into something that can be transmitted through wire.
+    * TCP - Transmission Control Protocol
+    * IP - Internet Protocol
+    * TCP/IP stack is the implementation of TCP/IP model
+    * a Socket is what communication is execute through, by linking source and destination IP address, as well as source and destination ports
+  * You may not need to scan ports in ephemeral port range, when you are trying to identify targets
+    * Ports here are known as dynamic ports. They are short-lived and often associated with specific communication streams only
+    * Services such as File Transfer Protocol (FTP) use this technique
+    * Security by Bbscurity - But! Administrators may hide some services in these ports so that the services won't be identified. If you need to scan many hosts, you can avoid scanning these ports since they will cost you longer time. When you haven't identified many services, or the hosts in target network is not too much, you can scan these ports.
+  * Frame Generation for the communication between 2 systems
+  ![Network Frame](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/network_frame.png)
