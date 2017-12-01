@@ -60,3 +60,13 @@ Sometimes your code is running, and you just don't want to check social media, w
     * Security by Bbscurity - But! Administrators may hide some services in these ports so that the services won't be identified. If you need to scan many hosts, you can avoid scanning these ports since they will cost you longer time. When you haven't identified many services, or the hosts in target network is not too much, you can scan these ports.
   * Frame Generation for the communication between 2 systems
   ![Network Frame](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/network_frame.png)
+  
+    * Ethernet Frame
+      * A frame is a way where data travels from host to host
+      * Frames communicate via a hardware address known as a Media Access Control (MAC) address
+      * It contains multiple components, at the end of a frame, there is checksum to check the integrity in data after it's been transmitted through wire
+      * Layer 2 in Ethernet networks
+        * Frames are used to communicate <b>within broadcast domains<b> or locations <b>inside default gateways></b, or <b>prior to passing a router</b>
+        * Once a router is passed, the router's hardware address is used for another broadcast domain
+        * Man-in-the-Middle (MitM) attacks (layer 2 attack), you have to be within the broadcast domain
+      * Layer 2 in wireless networks
