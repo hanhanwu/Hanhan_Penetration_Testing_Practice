@@ -70,3 +70,7 @@ Sometimes your code is running, and you just don't want to check social media, w
         * Once a router is passed, the router's hardware address is used for another broadcast domain
         * Man-in-the-Middle (MitM) attacks (layer 2 attack), you have to be within the broadcast domain
       * Layer 2 in wireless networks
+        * When doing wireless attacks, the concept is similar to MitM attacks, you have to be within range of the Service Set Identifier (SSID) or the actual wireless network name
+        * Communication is through AP (Access Points)
+        * If a wireless network contains more than one AP, it is an ESS
+        * Distribution System (DS) - a nonwireless network that connects APs
