@@ -66,7 +66,7 @@ Sometimes your code is running, and you just don't want to check social media, w
       * Frames communicate via a hardware address known as a Media Access Control (MAC) address
       * It contains multiple components, at the end of a frame, there is checksum to check the integrity in data after it's been transmitted through wire
       * Layer 2 in Ethernet networks
-        * Frames are used to communicate <b>within broadcast domains<b> or locations <b>inside default gateways></b, or <b>prior to passing a router</b>
+        * Frames are used to communicate <b>within broadcast domains</b> or locations <b>inside default gateways</b>, or <b>prior to passing a router</b>
         * Once a router is passed, the router's hardware address is used for another broadcast domain
         * Man-in-the-Middle (MitM) attacks (layer 2 attack), you have to be within the broadcast domain
       * Layer 2 in wireless networks
@@ -74,3 +74,17 @@ Sometimes your code is running, and you just don't want to check social media, w
         * Communication is through AP (Access Points)
         * If a wireless network contains more than one AP, it is an ESS
         * Distribution System (DS) - a nonwireless network that connects APs
+      * The IP packet architecture
+        * IPv6 could open new holes without being considered carefully. For example, an organization forgot that IPv6 is supported by default and turned on, and they are using IPv4 for configeration. In this way, attack can come through without being noticed.
+      * TCP
+        * TCP header contains sequencing, flags and control mechanism
+        * Attackers can manipulate the flags in order to get the response from target system
+        * TCP is a connection-oriented protocol, and a session is established between 2 systems
+        * 3 way handshake: 
+          * SYN flag sent from the source system to the target systems
+          * SYN-ACK sent from the target systems to the source systems
+          * ACK flag sent from source systems to target systems
+          * If communication was not finished, most systems nowadays will reset or close it
+      * UDP
+        * UDP header is smaller than TCP header, and it is a simple connectionless-oriented protocol
+        * UDP establishes a communication stream with a listening port. That port accepts the data and runs it up the TCP/IP stack as necessary. While TCP is needed for synchronized and reliable communication, UDP is not.
