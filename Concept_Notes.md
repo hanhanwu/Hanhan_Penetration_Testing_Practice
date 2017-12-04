@@ -88,3 +88,11 @@ Sometimes your code is running, and you just don't want to check social media, w
       * UDP
         * UDP header is smaller than TCP header, and it is a simple connectionless-oriented protocol
         * UDP establishes a communication stream with a listening port. That port accepts the data and runs it up the TCP/IP stack as necessary. While TCP is needed for synchronized and reliable communication, UDP is not.
+        
+    * Understand Nmap
+      * [Limitation 1: Resident TCP/IP stack] - It's using the integrated TCP/IP stack of the host operating system.
+        * DON'T scan more than once at a time for the same host. Execute only one instance of an nmap scan per host. Otherwise, it can slow down the execution but also creates errors, since each received packet can impact the results depending on the instance it was received by
+        * Solution, if you want to scan more than once. Use nmap to execute a scan using the host TCP/IP stack and the Unicorn scan, which contains its own TCP/IP stack
+      * [Limitation 2: Limitation of how detailed packets can be manipulated through nmap]
+        * Solution - HPING for single host: it allows you to create customized packets
+        * Solution - FPING for multiple hosts
