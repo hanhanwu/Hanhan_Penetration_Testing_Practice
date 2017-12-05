@@ -96,3 +96,6 @@ Sometimes your code is running, and you just don't want to check social media, w
       * [Limitation 2: Limitation of how detailed packets can be manipulated through nmap]
         * Solution - HPING for single host: it allows you to create customized packets
         * Solution - FPING for multiple hosts
+      * Input IP ranges through comand line
+        * `nmap -sS -vvv -p 80 192.168.195.0/24`, type ip ranges in comand line
+        * `nmap -sS -vvv -p 80 -iL input_ip_file`, ip ranges are in a file
