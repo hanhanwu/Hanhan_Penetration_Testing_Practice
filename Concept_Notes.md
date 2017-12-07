@@ -99,3 +99,20 @@ Sometimes your code is running, and you just don't want to check social media, w
       * Input IP ranges through comand line
         * `nmap -sS -vvv -p 80 192.168.195.0/24`, type ip ranges in comand line
         * `nmap -sS -vvv -p 80 -iL input_ip_file`, ip ranges are in a file
+      * 4 primary scans
+        * TCP full connection scan
+          * It may provide the most accurate scan, but automatic shunning system may block the source of the scan at the Internet Service Provider (ISP)
+          * `nmap -sT -vvv -p 80 192.168.195.0/24`
+        * SYN scan
+          * A type of TCP scan, but faster and quieter
+          * Don't use it on extremely old or sensitive equipments. If the system cannot close the connection itself without receiving ACK response, there can be problems, sometimes it can be Denial of Service (DoS)
+          * `nmap -sS -vvv -p 80 192.168.195.0/24`
+        * ACK scan
+          * Rarest TCP scan and it's slow
+          * But it's good for mapping firwall rule sets
+          * Some systems act in a strange way when you are doing ACK scan, so better to have `tcpdump` running or an inline tap on your system
+          * `nmap -sA -vvv -p80 192.168.195.0/24`
+        * UDP scans
+          * Extremely slow
+          * And it lies... such as it reports "filtered/open", basically means it does not know
+          * Better not to use this scan in an organization, dones't have too much benefit and annoying
