@@ -116,3 +116,14 @@ Sometimes your code is running, and you just don't want to check social media, w
           * Extremely slow
           * And it lies... such as it reports "filtered/open", basically means it does not know
           * Better not to use this scan in an organization, dones't have too much benefit and annoying
+        * Combine TCP & UDP scan
+          * Use them one by one can take very long time, so you can use them together, and just on primary ports. Too may ports can also take forever time
+          * `nmap -sS -sU -vvv -p U:161,139 T:8080,21 192.168.195.0/24`
+            * `-p` for oprion
+            * `U` for UDP scan
+            * `T` for TCP scan
+       * Skipping the operating system scans
+         * OS scan is very noisy (literally noisy)
+         * Chained scans to determine the responses and validate the system type, so it can bring down legacy systems
+         * It can damage an old or legacy system
+         * In the past, it used to create issues on printers, you have to turn down printers and restart
