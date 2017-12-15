@@ -12,3 +12,12 @@ OVERVIEW
 BASICS BUT MORE SECURE
 
 * Better to put `#!/usr/bin/env python` at the top of each python file, so that OS (Linux, Unix, OSX) can determine which interpreter to run absed on what is set in `PATH` environment variable. Windows will ignore this line and treat it as a comment.
+
+***************************************************************************
+
+PYTHON NMAP
+
+* Download & Install nmap: https://nmap.org/book/inst-macosx.html 
+* Type in your terminal `nmap --version`, if it will show a version then you installed successfully
+* Type `pip install python-nmap`, https://pypi.python.org/pypi/python-nmap
+* My python nmap code: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/python_nmap.py
