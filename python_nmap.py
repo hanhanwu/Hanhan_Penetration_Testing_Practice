@@ -12,7 +12,7 @@ for host in scanner.all_hosts():
     
 print scanner.csv() # print every port info row by row
 
-home_dir="/root"
+
 gateways = {}
 network_ifaces={}
 
@@ -59,32 +59,25 @@ def get_networks(gateways_dict):
     return networks_dict
   
 # Collect host (those are not your host) with open port
-def target_identifier(dir,user,passwd,ips,port_num,ifaces):
+def target_identifier(user,passwd,ips,port_range,ifaces):
     bufsize = 0
-    ssh_hosts = "%s/ssh_hosts" % (dir)
     scanner = nmap.PortScanner()
-    scanner.scan(ips, port_num)
-    open(ssh_hosts, 'w').close()
+    scanner.scan(ips, port_range)
+    
+    all_hosts = scanner.all_hosts()
+    
     if scanner.all_hosts():
-        e = open(ssh_hosts, 'a', bufsize)
-    else:
-        sys.exit("[!] No viable targets were found!")
-    for host in scanner.all_hosts():
-        for k,v in ifaces.iteritems():
-            if v['addr'] == host:
-                print("[-] Removing %s from target list since it belongs to your interface!") % (host)
-                host = None
-        if host != None:
-            home_dir="/root"
-            ssh_hosts = "%s/ssh_hosts" % (home_dir)
-            bufsize=0
-            e = open(ssh_hosts, 'a', bufsize)
-            if 'ssh' in scanner[host]['tcp'][int(port_num)]['name']:
-                if 'open' in scanner[host]['tcp'][int(port_num)]['state']:
-                    print("[+] Adding host %s to %s since the service is active on %s") % (host,ssh_hosts,port_num)
-                    hostdata=host + "\n"
-                    e.write(hostdata)
-    if not scanner.all_hosts():
-        e.closed
-    if ssh_hosts:
-        return ssh_hosts
+        for host in all_hosts:
+            for k,v in ifaces.iteritems():
+                if v['addr'] == host:  # remove your own host
+                    print("[-] Removing %s from target list since it belongs to your interface!") % (host)
+                    host = None
+            if host != None:
+                if 'ssh' in scanner[host]['tcp'][int(port_num)]['name']:
+                    if 'open' in scanner[host]['tcp'][int(port_num)]['state']:
+                        print("[+] Adding host %s to %s since the service is active on %s") % (host,ssh_hosts,port_num)
+
+home_dir="/root"
+gateways = get_gateways()
+network_ifaces = get_networks(gateways)
+hosts_file = target_identifier(home_dir,[machine user name],[machine password],hosts,ports,network_ifaces)
