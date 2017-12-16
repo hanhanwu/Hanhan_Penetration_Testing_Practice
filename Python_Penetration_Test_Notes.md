@@ -21,3 +21,8 @@ PYTHON NMAP
 * Type in your terminal `nmap --version`, if it will show a version then you installed successfully
 * Type `pip install python-nmap`, https://pypi.python.org/pypi/python-nmap
 * My python nmap code: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/python_nmap.py
+  * Credential attack reference: https://raw.githubusercontent.com/funkandwagnalls/pythonpentest/master/ssh_login.py
+    * You collect (host,ssh_hosts,port_num) that with port opened
+    * About netifaces: https://pypi.python.org/pypi/netifaces
+    * Always change your default password; otherwise, you may be a victim. 
+    * Also change your Kali instance hostname to something defensive network tools will not pick up, and always test your exploits prior to usage.
