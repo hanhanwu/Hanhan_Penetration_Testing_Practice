@@ -29,5 +29,10 @@ else:
 answered,unanswered = sr1(r, timout=10)  # seperate answered and unanswered data, this dind't work for me to be honest...
 sent, received = answered[80]  # if you are lucky, you can check the scan results for a port, port 80 here
 
-
-
+# The first packet sent would be represented by position 0, 
+## so each location after 0 represents the IP packets received
+## eg. here you get 18, means 16+2, ACK + SYN packets
+for a in answers:
+    print(a[1][1].flags)
+    
+    
