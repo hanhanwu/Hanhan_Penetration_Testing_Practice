@@ -131,3 +131,6 @@ Sometimes your code is running, and you just don't want to check social media, w
 ## Credential Attacks
 * Online Credential Attack - You are trying to forcefully authenticate without knowing the credentials such as username, password
 * Offline Credential Attack - You have already exracted the data, such as hashes, but you are trying to guess
+  * Message Digest 5 (MD5) and Secure Hashing Algorithm 1 (SHA-1) are considered as weak, since they are easy to have collisions.
+    * Here, <b>collission</b> means 2 different things can be hashed into the same thing, because of the weak algorithm. Mathemetics probability cannot guarantee this type of collision.
+    * But still MD5 is good enough for forensics and to check file system integrity. Because of the amount if datasets in file systems, to manipulate the data and create same hashed results is almost impossible
