@@ -127,3 +127,7 @@ Sometimes your code is running, and you just don't want to check social media, w
          * Chained scans to determine the responses and validate the system type, so it can bring down legacy systems
          * It can damage an old or legacy system
          * In the past, it used to create issues on printers, you have to turn down printers and restart
+
+## Credential Attacks
+* Online Credential Attack - You are trying to forcefully authenticate without knowing the credentials such as username, password
+* Offline Credential Attack - You have already exracted the data, such as hashes, but you are trying to guess
