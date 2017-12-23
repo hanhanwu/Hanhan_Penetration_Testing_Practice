@@ -134,3 +134,12 @@ Sometimes your code is running, and you just don't want to check social media, w
   * Message Digest 5 (MD5) and Secure Hashing Algorithm 1 (SHA-1) are considered as weak, since they are easy to have collisions.
     * Here, <b>collission</b> means 2 different things can be hashed into the same thing, because of the weak algorithm. Mathemetics probability cannot guarantee this type of collision.
     * But still MD5 is good enough for forensics and to check file system integrity. Because of the amount if datasets in file systems, to manipulate the data and create same hashed results is almost impossible
+* Identifying targets
+  * `nmap -sS -vvv -Pn -sV [target IP]`, by typing this in your terminal, you can get open ports and their services
+  * To target an organization, the easiest way is to compromise an account
+    * You get a list of possible usernames from google, linkedin, or whatever website you like
+      * The author suggests to use US census surname list, and each surname prepend with each character of the 26 alphabet
+      * I think, I will check that organization email username pattern, and decide how to form usernames. Of course, checking US census could help
+    * Verify your username list against a service port like SMTP with VRFY enabled or Finger
+      * SMTP - Smiple Mail Transfer Protocol
+      * This could help you narrow down your username list
