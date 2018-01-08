@@ -43,3 +43,12 @@ PYTHON SCAPY
 * `sendp()` uses a custom layer 2 header. `Ether()` represents the Ethernet frame header, and useful for wirelessnetworks or locations where Virtual Local Area Networks (VLANs) are used to segment networks. Wireless and VLANs are in layer 2.
 * My code: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/python_scapy.py
   * To be honest, not very lucky to get response from the target host, most of the time I got error. Even after I got the response, I dind't get any port scanned result
+  
+***************************************************************************
+
+CREDENTIAL ATTACKS
+
+* US Census - Surnames: https://www2.census.gov/topics/genealogy/
+  * You download the surnames here, and add 26 alphabet character a-z before each surname one by one, many username for company emails will be formed in this way.
+  * But it only works for English names. Meanwhile, many companies do not use this method, it can be "firstname_last_name", "firstname.lastname", etc. So, if you really want to generate the usernames for a specific company, google that company first, find some example email usernames
+  * My code: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/generate_basic_usernames.ipynb
