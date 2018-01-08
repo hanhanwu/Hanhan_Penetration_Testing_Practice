@@ -52,3 +52,4 @@ CREDENTIAL ATTACKS
   * You download the surnames here, and add 26 alphabet character a-z before each surname one by one, many username for company emails will be formed in this way.
   * But it only works for English names. Meanwhile, many companies do not use this method, it can be "firstname_last_name", "firstname.lastname", etc. So, if you really want to generate the usernames for a specific company, google that company first, find some example email usernames
   * My code: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/generate_basic_usernames.ipynb
+    * I'm practicing Spark2.2 here, you don't need to use Spark
