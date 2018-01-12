@@ -36,6 +36,15 @@ These resources only SFU students can use them. hahaha, I found many hands on fr
   * Exploits are done in Linux
 * [Advanced Penetration Testing for Highly-Secured Environments: The Ultimate Security Guide][5]
   * As you can see, it's advanced!
+  
+*****************************************************************
+
+Power Tools
+
+* HashCat - Cracking Passwords
+  * [Github][6]
+  * [All Details][7]
+  * [How to use HashCat][8]
 
 
 [1]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781784398583?uicode=simonfraser
@@ -43,3 +52,6 @@ These resources only SFU students can use them. hahaha, I found many hands on fr
 [3]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781457185342?uicode=simonfraser
 [4]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781784398583?uicode=simonfraser
 [5]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781849517744?uicode=simonfraser
+[6]:https://github.com/hashcat/hashcat
+[7]:https://hashcat.net/hashcat/
+[8]:https://www.youtube.com/watch?v=8fxLH-pokAI
