@@ -143,3 +143,15 @@ Sometimes your code is running, and you just don't want to check social media, w
     * Verify your username list against a service port like SMTP with VRFY enabled or Finger
       * SMTP - Smiple Mail Transfer Protocol
       * This could help you narrow down your username list
+    * About VRFY
+      * To reduce the chance of being caught in credential attacks, you have to reduce the number of guesses
+      * When you found SMTP is open and now you have generated a list of usernames, you can check VRFY is enabled or not
+        * If `VRFY` is enabled, normally it means something is wrong with secure deployment practices and may not be mornitored.
+        * Type `telnet [target IP]`
+        * Type `VRFY [username]`
+        * Returned code and meaning
+          * 252 - username is in the system
+          * 550 - username is not in the system
+          * 503 - The service requires authentication to use
+          * 500 - The service does not support VRFY
+      
