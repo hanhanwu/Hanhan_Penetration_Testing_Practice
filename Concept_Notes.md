@@ -154,4 +154,6 @@ Sometimes your code is running, and you just don't want to check social media, w
           * 550 - username is not in the system
           * 503 - The service requires authentication to use
           * 500 - The service does not support VRFY
+        * Python code for you to try this: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/smtp_vrfy.ipynb
+          * It does not have keyword 'VRFY' in the code
       
