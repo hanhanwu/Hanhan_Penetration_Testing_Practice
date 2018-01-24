@@ -55,3 +55,17 @@ Power Tools
 [6]:https://github.com/hashcat/hashcat
 [7]:https://hashcat.net/hashcat/
 [8]:https://www.youtube.com/watch?v=8fxLH-pokAI
+
+*****************************************************************
+
+Profession Resources
+
+* Reverse Engineering malware analysis resources: https://www.sans.org/course/reverse-engineering-malware-malware-analysis-tools-techniques
+  * I means the free resources at it bottom
+  
+*****************************************************************
+
+How To
+
+* Using Free Windows XP Mode as a VMware Virtual Machine: https://zeltser.com/windows-xp-mode-for-vmware-virtualization/
+* How to Get a Windows XP Mode Virtual Machine on Windows 8.1: https://zeltser.com/how-to-get-a-windows-xp-mode-virtual-machine-on-windows/
