@@ -156,4 +156,8 @@ Sometimes your code is running, and you just don't want to check social media, w
           * 500 - The service does not support VRFY
         * Python code for you to try this: https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/smtp_vrfy.ipynb
           * It does not have keyword 'VRFY' in the code
-      
+          
+## Service Exploitation
+* Lateral Movement - Same privilege level, you move from host to host
+* Vertical Movement/Privilege Escalation - You got higher level of privilege, such as Domain Administrator(DA)
+* Pivoting - With the access to a host or a network area, you get the access to a system that you could not see before because of access control or network segregation
