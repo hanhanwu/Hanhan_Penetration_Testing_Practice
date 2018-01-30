@@ -161,3 +161,6 @@ Sometimes your code is running, and you just don't want to check social media, w
 * Lateral Movement - Same privilege level, you move from host to host
 * Vertical Movement/Privilege Escalation - You got higher level of privilege, such as Domain Administrator(DA)
 * Pivoting - With the access to a host or a network area, you get the access to a system that you could not see before because of access control or network segregation
+* <b>Password Spray Attack</b>
+  * The attack uses 1 password on many usernames to prevent account lockout, it's also based on the principle that same password can be used on multiple accounts
+  * Microsoft Password Complexity Requirements: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/hh994562(v=ws.10)
