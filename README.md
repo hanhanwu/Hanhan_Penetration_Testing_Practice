@@ -55,6 +55,8 @@ Power Tools
 * Thc-Hydra - Gain unauthorized access from remote to system
   * [GitHub][11]
   * It is proof of concept code, for leagal use only
+  * In Metasploit, by default, account `msfadmin` has the same password as this username
+    * Type `hydra -l msfadmin -p msfadmin -f -V 192.168.195.145 ssh`, to launch hydra to against ssh service
 
 
 [1]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781784398583?uicode=simonfraser
