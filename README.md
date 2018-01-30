@@ -45,6 +45,16 @@ Power Tools
   * [Github][6]
   * [All Details][7]
   * [How to use HashCat][8]
+  
+* Metasploit - Penetrating Testing Framework
+  * Official Site: https://metasploit.com/
+    * Get Started: https://metasploit.com/get-started
+  * [GitHub][9]
+  * [Metasploitable3][10] - A VM that contains large amount of security vulnerabilities
+  
+* Thc-Hydra - Gain unauthorized access from remote to system
+  * [GitHub][11]
+  * It is proof of concept code, for leagal use only
 
 
 [1]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781784398583?uicode=simonfraser
@@ -55,10 +65,13 @@ Power Tools
 [6]:https://github.com/hashcat/hashcat
 [7]:https://hashcat.net/hashcat/
 [8]:https://www.youtube.com/watch?v=8fxLH-pokAI
+[9]:https://github.com/rapid7/metasploit-framework
+[10]:https://github.com/rapid7/metasploitable3
+[11]:https://github.com/vanhauser-thc/thc-hydra
 
 *****************************************************************
 
-Profession Resources
+Professional Resources
 
 * Reverse Engineering malware analysis resources: https://www.sans.org/course/reverse-engineering-malware-malware-analysis-tools-techniques
   * I means the free resources at it bottom
