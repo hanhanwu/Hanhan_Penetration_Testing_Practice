@@ -45,6 +45,7 @@ Power Tools
   * [Github][6]
   * [All Details][7]
   * [How to use HashCat][8]
+  * [HashGan Paper][12] - It says it's better than HashCat. At this moment, I didn't find the tool online or open source
   
 * Metasploit - Penetrating Testing Framework
   * Official Site: https://metasploit.com/
@@ -70,6 +71,7 @@ Power Tools
 [9]:https://github.com/rapid7/metasploit-framework
 [10]:https://github.com/rapid7/metasploitable3
 [11]:https://github.com/vanhauser-thc/thc-hydra
+[12]:https://github.com/hanhanwu/readings/blob/master/HashGan.pdf
 
 *****************************************************************
 
