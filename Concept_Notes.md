@@ -1,7 +1,9 @@
 Sometimes your code is running, and you just don't want to check social media, what to do? Keep learning!
 
-## Warning Zone! - When Working For Clients (Python Focus)
+## Warning Zone! - When Working For Clients
 * Better to avoid to install any library on client systems, in case of adding more risks and other unintended consequences
+* Never download an exploit from the Internet and directly exploit it on a system. Instead, always test in a lab environment, on a segregated system that has no connection to any other system or device. While testing it, make sure to run network taps and other monitoring tools to verify what activity might be run in the background.
+* Always be very cautious in real environments, when you copy passwd or shadow files over, you can break the target system. So, make sure not to delete, rename, or move the originals. If you make a copy in other locations on the target system, remove it as not to help the real attackers.
 
 
 ## What is penetration testing
