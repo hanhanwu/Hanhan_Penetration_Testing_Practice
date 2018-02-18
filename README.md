@@ -41,6 +41,8 @@ These resources only SFU students can use them. hahaha, I found many hands on fr
 
 Power Tools
 
+* Vulnerabilities Search: https://www.cvedetails.com
+
 * HashCat - Cracking Passwords
   * [Github][6]
   * [All Details][7]
