@@ -36,6 +36,8 @@ These resources only SFU students can use them. hahaha, I found many hands on fr
   * Exploits are done in Linux
 * [Advanced Penetration Testing for Highly-Secured Environments: The Ultimate Security Guide][5]
   * As you can see, it's advanced!
+* [Black Hat Python - 2014][13]
+  * It focuses on hacking Windows
   
 *****************************************************************
 
@@ -74,6 +76,7 @@ Power Tools
 [10]:https://github.com/rapid7/metasploitable3
 [11]:https://github.com/vanhauser-thc/thc-hydra
 [12]:https://github.com/hanhanwu/readings/blob/master/HashGan.pdf
+[13]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781457189807
 
 *****************************************************************
 
