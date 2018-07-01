@@ -6,14 +6,17 @@ Penetration Testing looks so cool! I also want to learn it!
 
 INTRODUCTION
 
-I am taking every effort to learn cyber security broader and deeper! Red team penetration testing looks so cool! I can't wait to try it!
+I am taking every effort to learn cyber security broader and deeper! Red team penetration testing looks so cool! I'm making progress little step by little step.
 
 
 *****************************************************************
 
-SFU RESOURCES
+RESOURCES
 
-These resources only SFU students can use them. hahaha, I found many hands on free e-book from school library!
+Some resources only SFU students can use them. But real practical resources, I may not use SFU links.
+
+* <b>Penetration Testing Execution Standard (PTES)</b>: http://www.pentest-standard.org/index.php/Main_Page
+  * So many standards...
 
 * [Metasploit: The Penetration Tester's Guide][14]
   * This maybe the best penetration testing book I have read so far. It's an old book, published in 2011, but it teaches you the fundamentals about how Metasploit works, so that no matter how fast this tool is updating, you can ramp up quickly
