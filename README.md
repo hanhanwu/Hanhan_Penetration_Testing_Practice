@@ -15,6 +15,8 @@ SFU RESOURCES
 
 These resources only SFU students can use them. hahaha, I found many hands on free e-book from school library!
 
+* [Metasploit: The Penetration Tester's Guide][14]
+  * This maybe the best penetration testing book I have read so far. It's an old book, published in 2011, but it teaches you the fundamentals about how Metasploit works, so that no matter how fast this tool is updating, you can ramp up quickly
 * [Python Penetration Testing Essentials][1]
   * Foot printing web server & application
   * Denial of Service
@@ -77,6 +79,7 @@ Power Tools
 [11]:https://github.com/vanhauser-thc/thc-hydra
 [12]:https://github.com/hanhanwu/readings/blob/master/HashGan.pdf
 [13]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781457189807
+[14]:https://www.amazon.ca/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X
 
 *****************************************************************
 
