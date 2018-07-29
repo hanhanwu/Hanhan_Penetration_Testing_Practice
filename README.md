@@ -16,7 +16,9 @@ RESOURCES
 Some resources only SFU students can use them. But real practical resources, I may not use SFU links.
 
 * <b>Penetration Testing Execution Standard (PTES)</b>: http://www.pentest-standard.org/index.php/Main_Page
-  * It provides detailed suggestions that feel like you are running a consultant company.
+  * It provides detailed suggestions that feel like you are running a consultant company. Although I'm wondering how many companies will really provide so much details to a group, even it's an internal group...
+  * Detailed categories of vulnerability analysis: http://www.pentest-standard.org/index.php/Vulnerability_Analysis
+  
 
 * [Metasploit: The Penetration Tester's Guide][14]
   * This maybe the best penetration testing book I have read so far. It's an old book, published in 2011, but it teaches you the fundamentals about how Metasploit works, so that no matter how fast this tool is updating, you can ramp up quickly
