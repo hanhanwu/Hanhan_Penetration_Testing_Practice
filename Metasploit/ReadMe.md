@@ -18,6 +18,8 @@ PENETRATION TESTING STANDARDS
     * Passive Methods
       * Check Metadata
       * Traffic Monitoring
+  * Exploitation contains major exploitation methods
+  * Post exploitation contains much more details, and after post exploitation, there are reports
 
 ************************************************************************
 
