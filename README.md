@@ -43,6 +43,9 @@ Some resources only SFU students can use them. But real practical resources, I m
   * As you can see, it's advanced!
 * [Black Hat Python - 2014][13]
   * It focuses on hacking Windows
+* [Pentesting Azure Application][15]
+  * The author said Emmanuel was among those who aspired him. Then, I'm sure, he got very good aspirations. 
+  * More document: https://docs.microsoft.com/en-us/azure/security/azure-security-pen-testing
   
 *****************************************************************
 
@@ -83,6 +86,7 @@ Power Tools
 [12]:https://github.com/hanhanwu/readings/blob/master/HashGan.pdf
 [13]:http://proquest.safaribooksonline.com.proxy.lib.sfu.ca/9781457189807
 [14]:https://www.amazon.ca/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X
+[15]:https://nostarch.com/azure
 
 *****************************************************************
 
