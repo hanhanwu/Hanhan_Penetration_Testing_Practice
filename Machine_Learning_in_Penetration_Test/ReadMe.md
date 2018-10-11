@@ -1,8 +1,9 @@
-These are the notes taken when I'm quickly going through a book called [Machine Learning in Penetration Testing][1]
+These are the notes taken when I'm quickly going through a book [Machine Learning in Penetration Testing][1]
 
 ## Overall
 * I think the machine learning used in this book is too basic, some methods will raise real data scientists' concern, such as the evaluation methods are not proper without necessary preprocessing or the evaluation methods can lead to bias. Meanwhile, the postive side that the book is trying to use many different data science methods and models, but it didn't explain why. When working in the industry, it is very important to understand why we are choosing this model or this method, because data science finally has to face customers, stakeholders or any other business people. I think machine learning related books, even if it's in other areas, the authors still should know why and help readers understand why.
-* Cannot say I recommend this book. Reading it just to learn some penetration testing related knowledge.
+* Cannot say I recommend this book. Reading it just to learn some penetration testing related knowledge, it's also very easy to quickly go through.
+* You can find all the code used in this book [here][5]
 
 ## Malware Analysis Notes
 ### Static Malware Analysis
@@ -22,3 +23,4 @@ These are the notes taken when I'm quickly going through a book called [Machine 
 [2]:https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/static_malware_analysis.py
 [3]:https://github.com/erocarrera/pefile/blob/wiki/UsageExamples.md#introduction
 [4]:https://github.com/erocarrera/pefile
+[5]:https://github.com/PacktPublishing/Mastering-Machine-Learning-for-Penetration-Testing
