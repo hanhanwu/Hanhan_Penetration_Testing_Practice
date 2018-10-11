@@ -18,9 +18,19 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 * Some walware detection methods are using PE headers such as [pefile][4]
 * [pefile example][3]
 
+## Bonet Detection
+* [A popular botnet dataset]
+  * It contains the mix of botnet, normal and background traffic. Labeled data.
+  
+## Anomalous Detection
+* The 2 anomalous detection packages mentioned (they are very old, no longer active any more...):
+  * Skyline: http://github.com/etsy/skyline  
+  * Oculus: http://github.com/etsy/oculus
+
 
 [1]:https://www.amazon.com/Mastering-Machine-Learning-Penetration-Testing/dp/1788997409
 [2]:https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/static_malware_analysis.py
 [3]:https://github.com/erocarrera/pefile/blob/wiki/UsageExamples.md#introduction
 [4]:https://github.com/erocarrera/pefile
 [5]:https://github.com/PacktPublishing/Mastering-Machine-Learning-for-Penetration-Testing
+[6]:https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
