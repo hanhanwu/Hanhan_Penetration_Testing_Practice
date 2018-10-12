@@ -2,7 +2,7 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 
 ## Overall
 * I think the machine learning used in this book is too basic, some methods will raise real data scientists' concern, such as the evaluation methods are not proper without necessary preprocessing or the evaluation methods can lead to bias. Meanwhile, the postive side that the book is trying to use many different data science methods and models, but it didn't explain why. When working in the industry, it is very important to understand why we are choosing this model or this method, because data science finally has to face customers, stakeholders or any other business people. I think machine learning related books, even if it's in other areas, the authors still should know why and help readers understand why.
-* Cannot say I recommend this book. Reading it just to learn some penetration testing related knowledge, it's also very easy to quickly go through.
+* <b>I don't recommend this book for data scientist.</b> Reading it just to learn some penetration testing related knowledge, it's also very easy to quickly go through.
 * You can find all the code used in this book [here][5]
 
 ## Malware Analysis Notes
@@ -18,11 +18,27 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 * Some walware detection methods are using PE headers such as [pefile][4]
 * [pefile example][3]
 
-## Bonet Detection
+## Adversary Machine Learning
+* The basic idea is to find ways to attack machine learning models.
+### Evasion Attacks
+* Attackers kept changing data input and observe the output, trying to find patterns which can help attacks bypass
+### Posinioning Attacks
+* It's trying to add malicious data in the training data to reduce machine learning performance
+* [An example that flip the labels to attack SVM][7]
+* Adversarial Clustering
+* Adversarial Features
+  * [CleverHans][8]
+    * [Its list of attacks][9] - attack different machine learning models
+  * [Adversarial Machine Learning (AML)][10]
+    * Scroll down, you will see multiple types of attack, not only adversarial features
+    * Game theory here means the study of mathematical models of cooperation between intelligent decision making agents.
+  * [EvadeML-Zoo][11]
+
+## Other
+### Bonet Detection
 * [A popular botnet dataset]
   * It contains the mix of botnet, normal and background traffic. Labeled data.
-  
-## Anomalous Detection
+### Anomalous Detection
 * The 2 anomalous detection packages mentioned (they are very old, no longer active any more...):
   * Skyline: http://github.com/etsy/skyline  
   * Oculus: http://github.com/etsy/oculus
@@ -34,3 +50,8 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 [4]:https://github.com/erocarrera/pefile
 [5]:https://github.com/PacktPublishing/Mastering-Machine-Learning-for-Penetration-Testing
 [6]:https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html
+[7]:https://github.com/feuerchop/ALFASVMLib
+[8]:https://github.com/tensorflow/cleverhans
+[9]:https://cleverhans.readthedocs.io/en/latest/source/attacks.html
+[10]:https://github.com/vu-aml/adlib/blob/master/Adversarial%20Machine%20Learning%20Library.ipynb
+[11]:https://github.com/mzweilin/EvadeML-Zoo/tree/master/attacks
