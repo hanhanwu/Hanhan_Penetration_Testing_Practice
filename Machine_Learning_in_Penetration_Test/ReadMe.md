@@ -33,6 +33,9 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
     * Scroll down, you will see multiple types of attack, not only adversarial features
     * Game theory here means the study of mathematical models of cooperation between intelligent decision making agents.
   * [EvadeML-Zoo][11]
+### Bypassing Neural Network
+* [Foolbox][12] - used to fool neural network
+  * [Supported attacks][13]
 
 ## Other
 ### Bonet Detection
@@ -55,3 +58,5 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 [9]:https://cleverhans.readthedocs.io/en/latest/source/attacks.html
 [10]:https://github.com/vu-aml/adlib/blob/master/Adversarial%20Machine%20Learning%20Library.ipynb
 [11]:https://github.com/mzweilin/EvadeML-Zoo/tree/master/attacks
+[12]:https://github.com/bethgelab/foolbox
+[13]:https://github.com/bethgelab/foolbox/tree/master/foolbox/attacks
