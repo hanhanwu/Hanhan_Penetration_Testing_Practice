@@ -40,6 +40,8 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
   ![foolbox attacks](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/foolbox_attacks.PNG)
 * [EvadeML][15] - it is an evolutionary framework based on genetic programming, for automatically finding variants that evade detection by machine learning based malware classifiers. 
   * Its website: https://evademl.org/
+* Generative Adversarial Networks
+  * Generative adversarial networks have the ability to generate images from a random noise.
 
 ## Other
 ### Bonet Detection
