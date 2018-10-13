@@ -34,8 +34,12 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
     * Game theory here means the study of mathematical models of cooperation between intelligent decision making agents.
   * [EvadeML-Zoo][11]
 ### Bypassing Neural Network
+* [Deep Pwning][14] - evaluates the robustness of the machine learning models against the adversarial machine learning
 * [Foolbox][12] - used to fool neural network
   * [Supported attacks][13]
+  ![foolbox attacks](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/foolbox_attacks.PNG)
+* [EvadeML][15] - it is an evolutionary framework based on genetic programming, for automatically finding variants that evade detection by machine learning based malware classifiers. 
+  * Its website: https://evademl.org/
 
 ## Other
 ### Bonet Detection
@@ -60,3 +64,5 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 [11]:https://github.com/mzweilin/EvadeML-Zoo/tree/master/attacks
 [12]:https://github.com/bethgelab/foolbox
 [13]:https://github.com/bethgelab/foolbox/tree/master/foolbox/attacks
+[14]:https://github.com/cchio/deep-pwning
+[15]:
