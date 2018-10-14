@@ -37,7 +37,8 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 * [Deep Pwning][14] - evaluates the robustness of the machine learning models against the adversarial machine learning
 * [Foolbox][12] - used to fool neural network
   * [Supported attacks][13]
-    * It sounded like its [decision based attacks][16] maybe better, some of them won't stop until the changed imaged has been classified. However, when I tried to use Keras to predict the adversarial image, they can still be predicted correctly, which means the adversarial work failed. Or some attacks are very very slow, could not see and end.
+    * I tried all the attacks here, most of them are very very slow, feeling like no way to stop. The document of setting param is also very confusing, I simply could not set the params wrote in `__call__`. But finally I found several methods wrokded well. They all have the description that tells you the algorithm won't stop till there is misclassification. Later I used keras pretrained model to predict, indeed, there is misclassfication for adversarial images.
+    * [Check my code][17]
   ![foolbox attacks](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/foolbox_attacks.PNG)
 * [EvadeML][15] - it is an evolutionary framework based on genetic programming, for automatically finding variants that evade detection by machine learning based malware classifiers. 
   * Its website: https://evademl.org/
@@ -70,3 +71,4 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 [14]:https://github.com/cchio/deep-pwning
 [15]:https://github.com/uvasrg/EvadeML
 [16]:https://foolbox.readthedocs.io/en/latest/modules/attacks/decision.html
+[17]:https://github.com/hanhanwu/Hanhan_My_Baby_Cat/blob/master/A_Cat_Intelligence/Security_Cat/Henso_Jutsu_101.ipynb
