@@ -37,7 +37,7 @@ These are the notes taken when I'm quickly going through a book [Machine Learnin
 * [Deep Pwning][14] - evaluates the robustness of the machine learning models against the adversarial machine learning
 * [Foolbox][12] - used to fool neural network
   * [Supported attacks][13]
-    * It seems that it's [decision based attacks][16] are better, since they will try to guarantee the changed image will be misclassified. I tried some gradient based, the changed images can still be classified correctly.
+    * It sounded like its [decision based attacks][16] maybe better, some of them won't stop until the changed imaged has been classified. However, when I tried to use Keras to predict the adversarial image, they can still be predicted correctly, which means the adversarial work failed. Or some attacks are very very slow, could not see and end.
   ![foolbox attacks](https://github.com/hanhanwu/Hanhan_Penetration_Testing_Practice/blob/master/Machine_Learning_in_Penetration_Test/foolbox_attacks.PNG)
 * [EvadeML][15] - it is an evolutionary framework based on genetic programming, for automatically finding variants that evade detection by machine learning based malware classifiers. 
   * Its website: https://evademl.org/
