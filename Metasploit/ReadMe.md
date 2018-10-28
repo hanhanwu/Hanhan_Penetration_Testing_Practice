@@ -1,5 +1,19 @@
 It Seems that a fast way to learn penetration testing is to use this Framework.
 
+## Practice
+
+### Passive Information Gathering
+#### whois
+* whois searches for an object in a WHOIS database. WHOIS is a query and response protocol that is widely used for querying databases that store the registered users of an Internet resource, such as a domain name or an IP address block, but is also used for a wider range of other information.
+* In msfconcole, type `whois secmaniac.net`, then it will show you things like the name of domain servers of www.secmaniac.net
+* With netcraft, you can find it's IP, whois can also be used on IP
+#### Netcraft
+* http://searchdns.netcraft.com/
+* You can find the IP address of a website through this tool
+#### nslookup
+* It is a tool built in many systems, you can find IP address of a website through this tool
+* Type `nslookup` in msfconsole, then type website domain name, such as "secmaniac.net"
+
 ************************************************************************
 
 PENETRATION TESTING STANDARDS
