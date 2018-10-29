@@ -1,6 +1,7 @@
 It Seems that a fast way to learn penetration testing is to use this Framework.
 
 ## Practice
+To use msfconsole, type `msfconsole` in the terminal.
 
 ### Passive Information Gathering
 #### whois
@@ -13,6 +14,18 @@ It Seems that a fast way to learn penetration testing is to use this Framework.
 #### nslookup
 * It is a tool built in many systems, you can find IP address of a website through this tool
 * Type `nslookup` in msfconsole, then type website domain name, such as "secmaniac.net"
+
+### Active Information Gathering
+#### nmap
+* Port scanning tool. Nmap lets you scan hosts to identify the services running on each, any of which might offer a way in.
+* `sudo apt-get install nmap` to install namp
+* `-sS` runs a stealth TCP scan that determines whether a specific TCP-based port is open
+* `-Pn`, which tells nmap not to use ping to determine whether a system is running; instead, it considers all hosts “alive.” Because most networks don’t allow Internet Control Message Protocol (ICMP), which is the protocol that ping uses.
+* `-oX` to generate .xml file, `nmap -Pn -sS -A -oX Subnet1 192.168.1.0/24`
+* `sudo nmap -Pn -sS -A IP`, fill in the IP in this command
+#### Database in Metasploit
+* `db_status` to check whether database is connected
+
 
 ************************************************************************
 
